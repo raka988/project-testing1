@@ -24,3 +24,6 @@ docker run -it —name nama-container nama-image:versi
 
 #rename container 
 docker rename nama-lama nama-baru
+
+#Mulai semua container yang dihentikan
+docker start $(docker ps -a -q)
