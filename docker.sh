@@ -16,7 +16,7 @@ docker pull nama-image
 #pull image with version
 docker pull nama-image:versi
 
-#create container 
+#buat container dan download images
 docker run -it nama-image
 
 #create container with name
